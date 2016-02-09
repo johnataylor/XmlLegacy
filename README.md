@@ -1,9 +1,7 @@
 # Addressing the XML Legacy
 
-Recipe 1
-========
-We want JSON but we have XML.
------------------------------
+## We want JSON but we have XML.
+
 Imagine we start with the following XML that describes one of the books we have in our library.
 
     <?xml version="1.0" encoding="utf-8" ?>
@@ -106,11 +104,8 @@ Generally code that deals with JSON is very good at ignoring what it doesn't und
 
 As is often the case when we decide to align our work with industry standards we find that there are many high quality open source implementations available on most widely used platforms. As we are working in .NET we will be using the DotNetRdf library which we can easily download from NuGet.
 
+## We want a single way to represent data in our organization.
 
-Recipe 2
-========
-We want a single way to represent data in our organization.
------------------------------------------------------------
 However even when we have data in XML we still have multiple different way for that data to be represented in the XML. Perhaps we should stop obsessing over the format and start focusing more on the concepts. Here is the same book, but expressed in a very different peice of XML.
 
     <?xml version="1.0" encoding="utf-8" ?>
@@ -178,22 +173,22 @@ The developer who came up with this XML clearly favored the more compact represe
 
 Again, like the previous XSLT, the main thing going on here is the assignment of URIs to the key concepts in our domain; in our example that means books and authors. Although this XSLT is different than the previous example in our first recipe the way it manufactures the URIs is exactly the same. In fact this XSLT produces exactly the same graph from the XML at the start of this recipe as the previous XSLT did for its XML. And because this XSLT produces the same graph it will produce the same JSON.  
 
-Recipe 3
-========
-To see the full picture sometimes we need to combine information about a topic from different sources.
-------------------------------------------------------------------------------------------------------
+The attentive reader might feel a little cheated realizing that the recipe presented here is just the previous one but with different ingredience. This is certainly true, however, within that fact there is a realization that what is going on here is a process of normalization. Instead of simply translating one shape of XML into another, we instead focused on identifyign and labelling the key concepts in the documents. And having labeled the key concepts the rest of the model is simplicity itself. All we do is associate properties with those identified concepts, the properties have values and that's our raw data, and naturally, sometimes, the property value can be another identified concept, and that's our structure covered.
 
 
-Recipe 4
-========
-Rearranging and pivoting the data can help to simplify the consuming code.
---------------------------------------------------------------------------
+## Sometimes it difficult to find the right words.
+
+Picking the right words matters, but only so much. Its really more important, at least at first, to just be consistent. Looking back at our two previous examples the other thing happening here is that we made an effort to use the same vocabulary. When we say "vocabulary" we simply mean the names of properties we chose to use.
+
+Realizing that the ultimate value in our data comes when we network it and combine it with other data its also natural that we use namespaces for our property names, that will certainly avoid any future conflicts. Namespaces turn out to be one of the most powerful simplifying techniques in software, raw JSON lacks explicit namespaces, however, raw JSON has also typically been served up from a REST endpoint and as such effortlessly inherited an implicit namespace. JSON-LD strengthens this significantly and introduces namespaces explicitly in the document, but manages to do so in a light weight non-invasive way that shouldn't cause any JavaScript programmers to trip up.
+
+## To see the full picture sometimes we need to combine information about a topic from different sources.
 
 
-Recipe 5
-========
-Discovering more relationships within the data can help to significantly simplify our business logic.
------------------------------------------------------------------------------------------------------
+## Rearranging and pivoting the data can help to simplify the consuming code.
+
+
+## Discovering more relationships within the data can help to significantly simplify our business logic.
 
 
 
