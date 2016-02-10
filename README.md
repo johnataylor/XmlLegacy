@@ -6,7 +6,7 @@
 
 [Sometimes it difficult to find the right words](https://github.com/johnataylor/XmlLegacy/blob/master/recipe3.md)
 
-[Recipe4](https://github.com/johnataylor/XmlLegacy/blob/master/recipe4.md)
+[To see the full picture sometimes we need to combine information about a topic from different sources](https://github.com/johnataylor/XmlLegacy/blob/master/recipe4.md)
 
 [Recipe5](https://github.com/johnataylor/XmlLegacy/blob/master/recipe5.md)
 
