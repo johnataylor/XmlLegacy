@@ -8,7 +8,7 @@
 
 [To see the full picture sometimes we need to combine information about a topic from different sources](https://github.com/johnataylor/XmlLegacy/blob/master/recipe4.md)
 
-[Recipe5](https://github.com/johnataylor/XmlLegacy/blob/master/recipe5.md)
+[Rearranging and pivoting the data can help to simplify the consuming code](https://github.com/johnataylor/XmlLegacy/blob/master/recipe5.md)
 
 [Recipe6](https://github.com/johnataylor/XmlLegacy/blob/master/recipe6.md)
 
