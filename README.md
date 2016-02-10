@@ -2,7 +2,7 @@
 
 [We want JSON but we have XML](https://github.com/johnataylor/XmlLegacy/blob/master/recipe1.md)
 
-[Recipe2](https://github.com/johnataylor/XmlLegacy/blob/master/recipe2.md)
+[We want a single way to represent data in our organization](https://github.com/johnataylor/XmlLegacy/blob/master/recipe2.md)
 
 [Recipe3](https://github.com/johnataylor/XmlLegacy/blob/master/recipe3.md)
 
