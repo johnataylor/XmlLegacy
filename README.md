@@ -10,7 +10,7 @@
 
 [Rearranging and pivoting the data can help to simplify the consuming code](https://github.com/johnataylor/XmlLegacy/blob/master/recipe5.md)
 
-[Recipe6](https://github.com/johnataylor/XmlLegacy/blob/master/recipe6.md)
+[Discovering more relationships within the data can help to significantly simplify our business logic](https://github.com/johnataylor/XmlLegacy/blob/master/recipe6.md)
 
 
 
