@@ -1,7 +1,5 @@
-Recipe 1
-========
-We want JSON but we have XML.
------------------------------
+## We want JSON but we have XML.
+
 Imagine we start with the following XML that describes one of the books we have in our library.
 
     <?xml version="1.0" encoding="utf-8" ?>
