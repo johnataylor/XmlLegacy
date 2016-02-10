@@ -4,7 +4,7 @@
 
 [We want a single way to represent data in our organization](https://github.com/johnataylor/XmlLegacy/blob/master/recipe2.md)
 
-[Recipe3](https://github.com/johnataylor/XmlLegacy/blob/master/recipe3.md)
+[Sometimes it difficult to find the right words](https://github.com/johnataylor/XmlLegacy/blob/master/recipe3.md)
 
 [Recipe4](https://github.com/johnataylor/XmlLegacy/blob/master/recipe4.md)
 
